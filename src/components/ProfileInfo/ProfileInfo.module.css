@@ -1,0 +1,27 @@
+.profileInfo {
+	width: 100%;
+	border: 1px solid black;
+	margin: 100px auto 0 auto;
+}
+.profileInfo ul {
+	color: black;
+	text-align: center;
+	padding: 150px 0;
+	font-size: 24px;
+}
+.profileInfo li {
+	line-height: 40px;
+}
+.profileInfo li span {
+	padding-left: 5px;
+	font-size: 20px;
+	font-style: italic;
+}
+.ipsum {
+	max-width: 25rem;
+	overflow: hidden;
+	display: inline-block;
+	text-overflow: ellipsis;
+	vertical-align: top;
+	white-space: nowrap;
+}

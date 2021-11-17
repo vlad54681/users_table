@@ -1,0 +1,55 @@
+.paginator {
+	max-width: 100%;
+	justify-content: flex-end;
+	padding-top: 20px;
+	display: flex;
+}
+.paginator > span {
+	padding: 0px 15px;
+	height: 30px;
+	line-height: 30px;
+	border: solid 1px rgb(129, 119, 119);
+	font-size: 18px;
+	color: rgb(0, 174, 255);
+}
+
+button {
+	background: white;
+	padding: 0px 10px;
+	font-size: 18px;
+	font-weight: bold;
+	color: rgb(0, 174, 255);
+	border: solid 1px rgb(129, 119, 119);
+}
+button:hover {
+	background: rgb(202, 202, 202);
+	transition-duration: 0.2s;
+	cursor: pointer;
+}
+button:active {
+	background: rgb(63, 63, 62);
+	transition-duration: unset;
+	color: white;
+}
+.paginator > span:hover {
+	background: rgb(202, 202, 202);
+	transition-duration: 0.2s;
+	cursor: pointer;
+}
+.paginator > span:active {
+	background: rgb(63, 63, 62);
+	transition-duration: unset;
+	color: white;
+}
+.paginator > .selectedPage {
+	font-weight: bold;
+	background: white;
+	color: rgb(0, 174, 255);
+}
+.paginator > .selectedPage:hover,
+.paginator > .selectedPage:active {
+	font-weight: bold;
+	background: white;
+	color: rgb(0, 174, 255);
+	cursor: initial;
+}

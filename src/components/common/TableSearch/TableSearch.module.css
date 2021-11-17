@@ -1,0 +1,29 @@
+.inputContainer span {
+	display: flex;
+}
+.inputContainer span input,
+select {
+	margin-left: 10px;
+	height: 20px;
+}
+.inputContainer {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.searchButton:hover {
+	box-shadow: 3px 3px rgb(219, 216, 216), -1px 0 0.4em rgb(214, 214, 211);
+	transition-duration: 0.2s;
+	cursor: pointer;
+	background: rgb(240, 240, 240);
+}
+.searchButton:active {
+	background: rgb(63, 63, 62);
+	transition-duration: unset;
+	color: white;
+	position: relative;
+	left: 4px;
+	top: 2px;
+}
